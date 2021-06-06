@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+ 
 }
 
 #navbar {
@@ -16,6 +16,7 @@ body {
     margin-right: 50px;*/
   text-decoration: none;
   font-size: 17px;
+  margin-block-end: 0px;
 }
 
 /* Change the color of links on hover */
@@ -32,4 +33,8 @@ body {
 
 #logo {
   float: left;
+}
+
+#header {
+  margin: 0;
 }
