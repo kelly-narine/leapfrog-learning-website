@@ -1,10 +1,26 @@
-body {
- 
+#contact-info {
+  padding-left: 10px;
+}
+ #book-session {
+  padding-left: 900px;
 }
 
 #navbar {
   background-color: #333;
   overflow: hidden;
+}
+.dropdown-menu {
+  width: 680px;
+}
+
+th {
+  padding-bottom: 15px;
+  padding-left: 20px;
+}
+
+td {
+  height: 40px;
+  padding-left: 20px;
 }
 
 #navbar a {
