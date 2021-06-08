@@ -4,18 +4,24 @@
     <meta charset="utf-8">
     <title>Leap Frog Learning | Learning by Leaps and Bounds</title>
     <link rel="stylesheet" href="home_page.css">
+    <!--bootstrap imports-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <!--Banner Image slideshow imports-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
   </head>
   <body>
     <div id=header>
       <address id="contact-info">416-275-5096 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-        <a href="mailto:john@leapfroglearning.ca">John Little</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-        <a id="book-session" href="book_session">Book Tutoring Session</a> 
+        <a href="mailto:john@leapfroglearning.ca">john@leapfroglearning.ca</a> 
+        <a id="book-session" href="book_session">Book Session</a> 
       </address> 
+      <hr>
     </div>
     <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
       <nav class="navbar navbar-expand-lg navbar-light">
@@ -79,5 +85,46 @@
         </ul>
       </div>
     </nav>
+    <div class="fotorama" data-autoplay="true">
+      <!-- <div id="banner"> -->
+      <img src = "images/chalkboard.jpg"/>
+      <img src = "images/programming.png"/>
+    </div>
+    <div id="features">
+      <h3>FEATURES</h3>
+      <ul>
+        <li>Customized Educational Programs</li>
+        <li>Highly Qualified Tutors</li>
+        <li>Various Delivery Methods</li>
+      </ul>
+    </div>
+    <div id="testimonials">
+      <center><h3>TESTIMONIALS</h3></center>
+      <div id="test1">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to 
+        make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,  
+        It was popularised in the 1960s with the release of Letraset sheets containing  
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
+      </div>
+      <div id="test2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a blandit dui. Integer ultrices dui at bibendum 
+        imperdiet. Aliquam vitae dignissim est. Sed rhoncus ut tortor non pulvinar. Vestibulum quis dolor ut nulla dapibus 
+        commodo vitae at arcu. Proin malesuada dui nec quam suscipit, eget ultricies felis scelerisque. Aenean aliquam eros 
+        sit amet mattis elementum. Sed at turpis eu purus ultricies efficitur vel et urna. Aliquam fringilla tempor massa
+        tempus euismod. Phasellus at accumsan nisi. Nunc auctor metus sed mollis dictum. Phasellus orci purus, commodo sed
+        aliquet ut, mollis quis nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+        himenaeos. Duis elementum fermentum libero posuere maximus. In consequat magna a gravida vehicula.
+      </div>
+      <div id="test3">
+        Vestibulum ac nisi a dolor placerat eleifend. Duis metus eros, pulvinar eget rhoncus non, pretium et nulla. Nulla facilisi.
+        Sed venenatis porta enim, sed porttitor eros facilisis eget. Donec posuere turpis in congue condimentum. Morbi arcu justo,
+        pulvinar quis mi non, sollicitudin suscipit felis. Curabitur varius felis velit, id efficitur urna volutpat quis. Aliquam
+        rhoncus augue ligula, sed pellentesque nisi pretium a. Nulla nibh mi, aliquam id felis vitae, rhoncus gravida enim.
+        Curabitur eget rutrum est. Vestibulum sit amet enim eleifend, aliquam turpis sit amet, condimentum nulla. Mauris feugiat
+        turpis nec accumsan posuere. Nam efficitur fermentum elit, ut egestas velit cursus non.
+      </div>
+    </div>
   </body>
 </html>

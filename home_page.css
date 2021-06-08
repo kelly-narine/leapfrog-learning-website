@@ -2,7 +2,8 @@
   padding-left: 10px;
 }
  #book-session {
-  padding-left: 1061px;
+  padding-left: 1052px;
+
 }
 
 
@@ -30,5 +31,36 @@ td {
 
 #header {
   margin: 0;
+  padding-top: 15px;
+}
+
+.fotorama {
+  height: 500px;
+}
+
+#features {
+  padding-top: 20px;
+  text-align: center;
+}
+
+ul {
+  padding-top: 20px;
+  display: inline-block;
+  text-align: left;
+}
+
+#testimonials {
+  padding-top: 20px;
+  margin: auto;
+  width: fit-content;
+}
+
+#test1, #test2, #test3 {
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 5px;;
+  padding: 10px;
+  margin: 20px; 
+  float: left;
 }
 
