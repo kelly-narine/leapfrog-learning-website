@@ -14,31 +14,33 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
     <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    <!--Font Imports-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body id="body-content">
     <div id=header>
       <address id="contact-info">416-275-5096 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-        <a href="mailto:john@leapfroglearning.ca">john@leapfroglearning.ca</a> 
+        <a id="email" href="mailto:john@leapfroglearning.ca">john@leapfroglearning.ca</a> 
         <a id="book-session" href="book_session">Book Session</a> 
       </address> 
       <hr>
     </div>
     <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
       <nav class="navbar navbar-expand-lg navbar-light">
-      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-      <!-- <img id ="logo" src = "images/TAGLINES-03 Cropped.jpg" height = 48px width= 48px/> -->
-      <!-- <img id ="logo" src = "images/leapfrog_logo.JPG" height = 48px width= 48px/> -->
-      <!-- <img id ="logo" src = "images/TAGLINES -03.png" height = 300px width= 300px/> -->
-      <img id ="logo" src = "images/leapfrog_logo2.png" height = 115px width= 495px/>
+      <!-- <img id ="logo" src = "images/leapfrog_logo2.png" height = 115px width= 495px/> -->
+      <a href="home_page.html"><img id ="logo" src = "images/leapfrog_logo2.png" height = 115px width= 495px/></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item active" id="navbar-item">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a href="home_page.html"><img class="navbar-icons" id="home-icon" src="images/icons/school.png"></a>
+            <a class="nav-link" href="home_page.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item dropdown" id="navbar-item">
+            <a href="#"><img class="navbar-icons" id="programs-icon" src="images/icons/composition-book.png"></a>
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Programs
             </a>
@@ -49,23 +51,23 @@
                   <th>Programs for Adults and Seniors</th>
                 </tr>
                 <tr>
-                  <td><a href="#">Math</a></td>
-                  <td><a href="#">ESL</a></td>
+                  <td><button class="subject-buttons" href="#">Math</button></td>
+                  <td><button class="subject-buttons" href="#">ESL</button></td>
                 </tr>
                 <tr>
-                  <td><a href="#">Science</a></td>
-                  <td><a href="#">Computer Basics</a></td>
+                  <td><button class="subject-buttons" href="#">Science</button></td>
+                  <td><button class="subject-buttons" href="#">Computer Basics</button></td>
                 </tr>
                 <tr>
-                  <td><a href="#">Exam Prep</a></td>
-                  <td><a href="#">Computerized Accounting</a></td>
+                  <td><button class="subject-buttons" href="#">Exam Prep</button></td>
+                  <td><button class="subject-buttons" href="#">Computerized Accounting</button></td>
                 </tr>
                 <tr>
-                  <td><a href="#">Essay Writing</a></td>
-                  <td><a href="#">Job Readiness Workshops</a></td>
+                  <td><button class="subject-buttons" href="#">Essay Writing</button></td>
+                  <td><button class="subject-buttons" href="#">Job Readiness Workshops</button></td>
                 </tr>
                 <tr>
-                  <td><a href="#">Speech and Language Development</a></td>
+                  <td><button class="subject-buttons" href="#">Speech and Language Development</button></td>
                 </tr>
               </table>
               <!-- <a class="dropdown-item" href="#">Action</a>
@@ -74,19 +76,21 @@
             </div>
           </li>
           <li class="nav-item" id="navbar-item">
-            <a class="nav-link" href="#">Course Packages</a>
+            <a href="#"><img class="navbar-icons" id="course-packages-icon" src="images/icons/books.png"></a>
+            <a class="nav-link" href="#"> Course Packages</a>
           </li>
           <li class="nav-item" id="navbar-item">
+            <a href="#"><img class="navbar-icons" id="about-me-icon" src="images/icons/person-profile.png"></a>
             <a class="nav-link" href="#">About Me</a>
           </li>
           <li class="nav-item" id="navbar-item">
-            <a class="nav-link" href="#">Contact Us</a>
+            <a href="#"><img class="navbar-icons" id="contact-me-icon" src="images/icons/mail.png"></a>
+            <a class="nav-link" href="#">Contact Me</a>
           </li>
         </ul>
       </div>
     </nav>
     <div class="fotorama" data-autoplay="true">
-      <!-- <div id="banner"> -->
       <img src = "images/chalkboard.jpg"/>
       <img src = "images/programming.png"/>
     </div>
@@ -99,7 +103,7 @@
       </ul>
     </div>
     <div id="testimonials">
-      <center><h3>TESTIMONIALS</h3></center>
+      <h3>TESTIMONIALS</h3>
       <div id="test1">
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
         standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to 
@@ -126,5 +130,9 @@
         turpis nec accumsan posuere. Nam efficitur fermentum elit, ut egestas velit cursus non.
       </div>
     </div>
+    <footer>
+        <hr>
+       <div id="footer-content">&copy; 2021 leapfroglearning.ca</div> <!-- maybe need javascript to get current year -->
+    </footer>
   </body>
 </html>
