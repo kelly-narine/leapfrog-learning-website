@@ -1,12 +1,19 @@
-#contact-info {
-  padding-left: 35px;
+#header, #footer-content {
+  background-color: #113b51;
+  color:white;
 }
+
+#contact-info {
+  padding-left: 25px;
+  color:white;
+}
+
  #book-session {
   padding-left: 1020px;
 }
 
 #email:link, #book-session:link {
-  color: black;
+  color: white;
 }
 
 #email:hover, #book-session:hover {
@@ -102,11 +109,24 @@ td {
   /* font-family: 'Open Sans', sans-serif; */
 }
 
+#features-header, #testimonials-header {
+  color: #E18D99; 
+  font-family: 'Dosis', sans-serif;  
+  font-weight: 600;  
+  text-decoration: underline;
+}
+
 ul {
   padding-top: 20px;
   display: inline-block;
   text-align: left;
 }
+
+/* #testimonials-header {
+  color: #C1CD99;
+  color: #A7B381;
+  font-weight: 600;
+} */
 
 #testimonials {
   padding-top: 20px;
