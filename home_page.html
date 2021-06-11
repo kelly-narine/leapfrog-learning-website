@@ -111,7 +111,7 @@
     <div id="testimonials">
       <h3 id="testimonials-header">TESTIMONIALS</h3>
       <div id="test1">
-        <!-- <img id="test1-text-box" src ="images/text-boxes/textbox-blue.png"> -->
+        <!-- <img id="test1-text-box" src ="images/backgrounds/homepage-background.png"> -->
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
         standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to 
         make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,  
@@ -140,7 +140,12 @@
     <footer>  
        <div id="footer-content">
         <hr>
-         &copy; 2021 leapfroglearning.ca
+         &copy; 
+        <script>
+          let currentYear = new Date().getFullYear();
+          document.write(currentYear);
+        </script>  
+        leapfroglearning.ca
        </div> <!-- maybe need javascript to get current year -->
     </footer>
   </body>
