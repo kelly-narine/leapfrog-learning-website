@@ -1,105 +1,3 @@
-#header, #footer-content {
-  background-color: #113b51;
-  color:white;
-}
-
-#contact-info {
-  padding-left: 25px;
-  color:white;
-}
-
- #book-session {
-  padding-left: 1020px;
-}
-
-#email:link, #book-session:link {
-  color: white;
-}
-
-#email:hover, #book-session:hover {
-  text-decoration: none;
-  color: rgb(129, 142, 61);
-}
-
-#navbar-item {
-  padding-left: 95px;
-}
-
-.navbar-icons {
-  height: 64px;
-  width: 64px;
-}
-
-#home-icon {
-  position: relative;
-  right: 1.55px;
-}
-
-#programs-icon {
-  position: relative;
-  left: 14px;
-}
-
-#course-packages-icon {
-  position: relative;
-  left: 40px;
-}
-
-#about-me-icon {
-  position: relative;
-  left: 11.5px;
-}
-
-#contact-icon {
-  position: relative;
-  left: 5px;
-}
-
-.dropdown-menu {
-  width: 680px;
-}
-
-th {
-  padding-bottom: 15px;
-  padding-left: 20px;
-  color: #E18D99;
-}
-
-.subjects {
-  height: 40px;
-  padding-left: 20px;
-}
-
-.subject-buttons {
-  width: 100%;
-  height: 100%;
-  border: none;
-  background-color: white;
-  text-align: left;
-}
-
-.subject-buttons:hover { /* may add @media for button text transition*/
-  width: 100%;
-  height: 100%;
-  border: none;
-  background-color: #E18D99;
-  text-align: left;
-  color: white;
-}
-
-#logo {
-  float: left;
-}
-
-#header {
-  margin: 0;
-  padding-top: 15px;
-}
-
-#body-content {
-  font-family: 'Open Sans', sans-serif;
-}
-
 #slide-1-caption {
   color: black;
   /* font-weight: bold; */
@@ -115,7 +13,6 @@ th {
   position: relative;
   top: 0;
   left: 0;
-
 }
 
 .slide-logo {
@@ -271,10 +168,6 @@ ul {
   color: white;
 }
 
-#footer-content {
-  padding-left: 20px;
-  padding-bottom: 15px;
-}
 
 
 
