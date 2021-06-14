@@ -1,0 +1,53 @@
+#body-content {
+  /* text-align: center; */
+  font-family: 'Open Sans', sans-serif;
+}
+
+.headings {
+  padding-top: 30px;
+  text-align: center;
+}
+
+/* .card {
+  float: left;
+} */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+  padding-left: 40px;
+}
+
+.grid-container-continuing {
+  display: grid;
+  margin: auto;
+  width: fit-content;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  text-align: center;
+}
+
+.grid-item-continuing {
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  text-align: center;
+}
+
+#post-secondary-heading {
+  padding-bottom: 30px;
+}
+
+#continuing-heading {
+  padding-top: 50px;
+}
+
+footer {
+  padding-top: 500px; 
+  text-align: left;
+}
+

@@ -45,6 +45,17 @@
   left: 40px;
 }
 
+
+/* NOTE: below pertains to programs menu popping up on hover */
+
+/* .programs-hover:hover + #programs{
+  visibility: visible;
+}
+
+#programs {
+  visibility: hidden;
+} */
+
 #about-me-icon {
   position: relative;
   left: 11.5px;
@@ -94,10 +105,6 @@ th {
 #header {
   margin: 0;
   padding-top: 15px;
-}
-
-#body-content {
-  font-family: 'Open Sans', sans-serif;
 }
 
 #footer-content {
