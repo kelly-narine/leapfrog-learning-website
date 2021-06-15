@@ -9,10 +9,11 @@
 }
 
  #book-session {
-  padding-left: 1020px;
+  position: relative;
+  left: 1020px;
 }
 
-#email:link, #book-session:link {
+#email:link, #book-session:link, #book-session:visited {
   color: white;
 }
 

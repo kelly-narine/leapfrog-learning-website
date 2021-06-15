@@ -1,16 +1,18 @@
 #body-content {
-  /* text-align: center; */
   font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30px;
 }
 
 .headings {
   padding-top: 30px;
   text-align: center;
+  color: #E18D99;
 }
-
-/* .card {
-  float: left;
-} */
 
 .grid-container {
   display: grid;
@@ -26,12 +28,28 @@
   grid-template-columns: auto auto auto;
   padding: 10px;
 }
+
+.grid-container-continuing-2 {
+  display: grid;
+  margin: auto;
+  width: fit-content;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
 .grid-item {
   padding: 20px;
   text-align: center;
 }
 
 .grid-item-continuing {
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  text-align: center;
+}
+
+.grid-item-continuing-2 {
   padding: 20px;
   padding-left: 60px;
   padding-right: 60px;
