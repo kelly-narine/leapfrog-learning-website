@@ -27,7 +27,8 @@
 .nav-text {
   position: absolute;
   top: 65%;
-  left: 48.85%; /* may need to center */
+  /* left: 48.85%; may need to center */
+  left: 48.6%;
   transform: translate(-50%, -50%);
   color: white;
   font-family: 'Open sans', sans-serif;

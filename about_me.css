@@ -23,7 +23,8 @@
 .nav-text {
   position: absolute;
   top: 65%;
-  left: 48.85%; /* may need to center */
+  /* left: 48.85%; may need to center */
+  left: 48.6%;
   transform: translate(-50%, -50%);
   color: white;
   font-family: 'Open sans', sans-serif;
@@ -50,4 +51,22 @@ ul.breadcrumb-nav li a:hover {
 
 #current-page {
   color: rgb(182, 177, 177);
+}
+
+#profile-pic {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  position: relative;
+  left: 7%;
+  top: 10%;
+}
+
+#about-header {
+  color: #E18D99;
+  font-weight: bold;
+  font-family: 'Dosis', sans-serif;
+  font-size: 35px;
+  position: relative;
+  left: 12.5%;
 }
