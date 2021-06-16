@@ -1,0 +1,53 @@
+#banner-image {
+  opacity: 0.6; 
+}
+
+#banner-container {
+  position: relative;
+  text-align: center;
+  margin-bottom: 50px;
+  background-color: black;
+}
+
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 600;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  font-size: 40px;
+}
+
+.nav-text {
+  position: absolute;
+  top: 65%;
+  left: 48.85%; /* may need to center */
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Open sans', sans-serif;
+  font-size: 40px;
+}
+
+ul.breadcrumb-nav li {
+  display: inline;
+  font-size: 16px;
+}
+ul.breadcrumb-nav li+li:before {
+  padding: 5px;
+  color: white;
+  content: ">\00a0";
+}
+ul.breadcrumb-nav li a {
+  color: white;
+  text-decoration: none;
+}
+ul.breadcrumb-nav li a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+#current-page {
+  color: rgb(182, 177, 177);
+}
