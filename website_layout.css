@@ -38,7 +38,13 @@
 
 #programs-icon {
   position: relative;
-  left: 14px;
+  left: 9px;
+  bottom: 10px;
+}
+
+.program-text {
+  position: relative;
+  bottom: 16px;
 }
 
 #course-packages-icon {
