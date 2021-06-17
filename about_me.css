@@ -57,45 +57,62 @@ ul.breadcrumb-nav li a:hover {
   border-radius: 50%;
   height: 250px;
   width: 250px;
-  /* position: relative;
-  left: 7%;
-  top: 10%; */
   float: left;
   padding: 0 10px 0 0;
 }
 
-#about-header {
+.headers {
   color: #E18D99;
   font-weight: bold;
   font-family: 'Dosis', sans-serif;
-  font-size: 40px;
+  font-size: 35px;
   padding-bottom: 20px;
-  text-decoration: underline;
+  margin-left: 175px;
+  text-transform: uppercase;
+  /* text-align: left; */
+  /* text-decoration: underline; */
   /* padding-left: 42%; */
 }
 
-#bio {
-  margin: 10%;
-  width: 50%; 
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.content {
-  display: inline-block;
-  width: 50%;
-  padding: 5px;
-}
-
-#lightbulb {
-  border-radius: 5px;
-  /* padding-left: 500px; */
-  position: relative;
-  bottom: 800px;
-  left: 700px;
+#bio-section {
+  margin-left: 175px;
+  margin-right: 50px;
 }
 
 #bio-text {
-  width: 500px;
+  width: 600px;
 }
+
+#learn-image {
+  border-radius: 5px;
+  margin-left: 90px;
+  width: 550px;
+  height: 400px;
+}
+
+#image-column {
+  padding-bottom: 30px;
+}
+
+#offer {
+  padding-top: 25px;
+}
+
+#offer-list {
+  margin-left: 175px;
+  padding-bottom: 150px;
+  color: rgb(108, 117, 125);
+  font-size: 15px;
+  list-style: none;
+}
+
+#offer-list li:before {
+  content: '✓';
+  font-weight: bold;
+  padding-right: 8px;
+}
+
+#offer-list li {
+  padding-bottom: 5px;
+}
+
