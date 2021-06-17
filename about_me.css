@@ -76,13 +76,26 @@ ul.breadcrumb-nav li a:hover {
 
 #bio {
   margin: 10%;
-  width: 40%;
-  float: left;
+  width: 50%; 
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.content {
+  display: inline-block;
+  width: 50%;
+  padding: 5px;
 }
 
 #lightbulb {
   border-radius: 5px;
-  /* float: right; */
-  float: left;
-  /* clear: left; */
+  /* padding-left: 500px; */
+  position: relative;
+  bottom: 800px;
+  left: 700px;
+}
+
+#bio-text {
+  width: 500px;
 }
