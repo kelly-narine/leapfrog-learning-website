@@ -175,50 +175,56 @@
         </td>
       </tr>
     </table>
-    <div id="map-container">
-      <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2884.7521536849013!2d-79.76939372006315!3d43.69491578261708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b15c74d99acbd%3A0x29e9114787e76760!2sVodden%20Medical%20Arts%20Centre!5e0!3m2!1sen!2sca!4v1624031854707!5m2!1sen!2sca" width="550" height="600" style="border:0; border-radius: 7px;" allowfullscreen="" loading="lazy"></iframe>
-    </div>
-    <div id="consultation-container">
-      <div id="contact-header">
-        <p id="form-header">Contact</p>
+    <div class="grid-container-contact">
+      <div class="grid-item-contact">
+        <div id="map-container">
+          <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2884.7521536849013!2d-79.76939372006315!3d43.69491578261708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b15c74d99acbd%3A0x29e9114787e76760!2sVodden%20Medical%20Arts%20Centre!5e0!3m2!1sen!2sca!4v1624031854707!5m2!1sen!2sca" width="550" height="600" style="border:0; border-radius: 7px;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
       </div>
-      <div id="consultation">
-        <form>
-          <div class="form-row">
-            <div class="form-group col-md-2 form-group-icon">
-              <span>
-                <i class="bi bi-person-fill"></i>
-              </span>
-              <input type="text" class="form-control input-field" id="inputName" placeholder="Name">   
-            </div>
+      <div class="grid-item-contact">
+        <div id="consultation-container">
+          <div id="contact-header">
+            <p id="form-header">Contact</p>
           </div>
-          <div class="form-row">
-            <div class="form-group col-md-2">
-              <span>
-                <i class="bi bi-envelope-fill" id="email-input"></i>
-              </span>
-              <input type="email" class="form-control input-field" id="inputEmail4" placeholder="Email">
-            </div>
+          <div id="consultation">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-2 form-group-icon">
+                  <span>
+                    <i class="bi bi-person-fill"></i>
+                  </span>
+                  <input type="text" class="form-control input-field" id="inputName" placeholder="Name">   
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-2">
+                  <span>
+                    <i class="bi bi-envelope-fill" id="email-input"></i>
+                  </span>
+                  <input type="email" class="form-control input-field" id="inputEmail4" placeholder="Email">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-2">
+                  <span>
+                    <i class="bi bi-phone-fill"></i>
+                  </span>
+                  <input type="tel" class="form-control input-field" id="phoneNumber" placeholder="Mobile Number">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" cols="50" placeholder="Description"></textarea>
+                </div>
+              </div>
+              <button id="submit-button" type="submit" class="btn btn-primary">Submit</button>
+            </form>
           </div>
-          <div class="form-row">
-            <div class="form-group col-md-2">
-              <span>
-                <i class="bi bi-phone-fill"></i>
-              </span>
-              <input type="tel" class="form-control input-field" id="phoneNumber" placeholder="Mobile Number">
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="form-group">
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" cols="50" placeholder="Description"></textarea>
-            </div>
-          </div>
-          <button id="submit-button" type="submit" class="btn btn-primary">Submit</button>
-        </form>
+        </div>
       </div>
     </div>
-    
-
+   
+  
     <footer>  
       <div id="footer-content">
        <hr>
