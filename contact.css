@@ -53,16 +53,125 @@ ul.breadcrumb-nav li a:hover {
   color: rgb(182, 177, 177);
 }
 
-#telephone-button {
-  /* color: #2E8364; */
-  background-color: #2E8364;
-  /* border-radius: 50%;
-  background-color: grey; */
+#contact-table {
+  margin: auto;
 }
 
-#temp {
-  margin-left: 30px;
+#location-button {
+  border: none;
+  background-color: rgb(250, 110, 79, 0.65);
 }
+
+#location-info {
+  position: relative;
+  top: 24.5px;
+}
+
+#telephone-info {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+#location-text, #phone-text, #email-text {
+  display: inline-table;
+  position: relative;
+  bottom: 18px;
+  left: 10px;
+}
+
+#telephone-button {
+  border: none;
+  background-color: rgb(151, 207, 166, 0.8);
+}
+
+#email-button {
+  border: none;
+  background-color: rgb(78, 124, 165, 0.8);
+}
+
+#location-header {
+  font-weight: bold;
+  color:  rgb(250, 110, 79, 0.65);
+}
+
+#phone-header {
+  font-weight: bold;
+  color:  rgb(151, 207, 166, 0.8);
+}
+
+#email-header {
+  font-weight: bold;
+  color:  rgb(78, 124, 165, 0.8);
+}
+
+.no-click {
+  pointer-events: none;
+}
+
+#map {
+  margin-left: 200px;
+}
+
+#consultation {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.input-field {
+  height: 45px;
+}
+
+#inputName, #inputEmail4, #phoneNumber {
+  border-radius: 7px;
+  padding-left: 25px;
+  width: 250px;
+}
+
+span {
+  position: absolute;
+  margin-left: 5px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.bi-person-fill, #email-input, .bi-phone-fill {
+  color: #888;
+}
+
+#contact-header {
+  height: 50px;
+  background-color: rgb(78, 124, 165, 0.8);
+  margin-left: 20px;
+  width: 32.6%;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+#consultation {
+  border: 1px solid rgb(206, 212, 218);
+  padding: 30px;
+  width: fit-content;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+#form-header {
+  color: white;
+  font-weight: bold;
+  /* text-align: center; */
+  margin-left: 4%;
+  position: relative;
+  top: 5px;
+  font-size: 30px;
+}
+
+#submit-button {
+  width: 440px;
+  margin-left: -5px;
+}
+
+
 
 
 
