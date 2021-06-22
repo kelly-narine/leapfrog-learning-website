@@ -187,13 +187,13 @@
             <p id="form-header">Contact</p>
           </div>
           <div id="consultation">
-            <form>
+            <form method="POST" name="myemailform" action="form-to-email.php">
               <div class="form-row">
                 <div class="form-group col-md-2 form-group-icon">
                   <span>
                     <i class="bi bi-person-fill"></i>
                   </span>
-                  <input type="text" class="form-control input-field" id="inputName" placeholder="Name">   
+                  <input type="text" name="name" class="form-control input-field" id="inputName" placeholder="Name">   
                 </div>
               </div>
               <div class="form-row">
@@ -201,7 +201,7 @@
                   <span>
                     <i class="bi bi-envelope-fill" id="email-input"></i>
                   </span>
-                  <input type="email" class="form-control input-field" id="inputEmail4" placeholder="Email">
+                  <input type="email" name="email" class="form-control input-field" id="inputEmail4" placeholder="Email">
                 </div>
               </div>
               <div class="form-row">
@@ -209,15 +209,15 @@
                   <span>
                     <i class="bi bi-phone-fill"></i>
                   </span>
-                  <input type="tel" class="form-control input-field" id="phoneNumber" placeholder="Mobile Number">
+                  <input type="tel" name="phone" class="form-control input-field" id="phoneNumber" placeholder="Mobile Number">
                 </div>
               </div>
               <div class="form-row">
                 <div class="form-group">
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" cols="50" placeholder="Description"></textarea>
+                  <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="5" cols="50" placeholder="Description"></textarea>
                 </div>
               </div>
-              <button id="submit-button" type="submit" class="btn btn-primary">Submit</button>
+              <button id="submit-button" name="submit" type="submit" class="btn btn-primary">Submit</button>
             </form>
           </div>
         </div>
