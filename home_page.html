@@ -18,6 +18,8 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
     <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    <!--Text Animations Import-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <!--Font Imports-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <!--Regular Open Sans-->
@@ -57,31 +59,33 @@
               Programs
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <table id="programs">
-                <tr>
-                  <th>Programs for Children and Young Adults&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
-                  <th>Programs for Adults and Seniors</th>
-                </tr>
-                <tr>
-                  <td class="subjects"><a href="programs_math.html"><button class="subject-buttons">Math</button></a></td>
-                  <td class="subjects"><a href="programs_esl.html"><button class="subject-buttons">ESL</button></a></td>
-                </tr>
-                <tr>
-                  <td class="subjects"><a href="programs_science.html"><button class="subject-buttons">Science</button></a></td>
-                  <td class="subjects"><a href="programs_computer_basics.html"><button class="subject-buttons">Computer Basics</button></a></td>
-                </tr>
-                <tr>
-                  <td class="subjects"><a href="programs_exam.html"><button class="subject-buttons">Exam Prep</button></a></td>
-                  <td class="subjects"><a href="programs_computerized_accounting.html"><button class="subject-buttons">Computerized Accounting</button></a></td>
-                </tr>
-                <tr>
-                  <td class="subjects"><a href="programs_essay.html"><button class="subject-buttons">Essay Writing</button></a></td>
-                  <td class="subjects"><a href="programs_job_readiness.html"><button class="subject-buttons">Job Readiness Workshops</button></a></td>
-                </tr>
-                <tr>
-                  <td class="subjects"><a href="programs_speech.html"><button class="subject-buttons">Speech and Language Development</button></a></td>
-                </tr>
-              </table>
+              <div id="programs-table">
+                <table id="programs">
+                  <tr>
+                    <th>Programs for Children and Young Adults&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                    <th>Programs for Adults and Seniors</th>
+                  </tr>
+                  <tr>
+                    <td class="subjects"><a href="programs_math.html"><button class="subject-buttons">Math</button></a></td>
+                    <td class="subjects"><a href="programs_esl.html"><button class="subject-buttons">ESL</button></a></td>
+                  </tr>
+                  <tr>
+                    <td class="subjects"><a href="programs_science.html"><button class="subject-buttons">Science</button></a></td>
+                    <td class="subjects"><a href="programs_computer_basics.html"><button class="subject-buttons">Computer Basics</button></a></td>
+                  </tr>
+                  <tr>
+                    <td class="subjects"><a href="programs_exam.html"><button class="subject-buttons">Exam Prep</button></a></td>
+                    <td class="subjects"><a href="programs_computerized_accounting.html"><button class="subject-buttons">Computerized Accounting</button></a></td>
+                  </tr>
+                  <tr>
+                    <td class="subjects"><a href="programs_essay.html"><button class="subject-buttons">Essay Writing</button></a></td>
+                    <td class="subjects"><a href="programs_job_readiness.html"><button class="subject-buttons">Job Readiness Workshops</button></a></td>
+                  </tr>
+                  <tr>
+                    <td class="subjects"><a href="programs_speech.html"><button class="subject-buttons">Speech and Language Development</button></a></td>
+                  </tr>
+                </table>
+              </div>
               <!-- <a class="dropdown-item" href="#">Action</a>
               <a class="dropdown-item" href="#">Another action</a>
               <a class="dropdown-item" href="#">Something else here</a> -->
@@ -121,7 +125,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="images/chalkboard.jpg" class="d-block w-100 features-slides" alt="...">
+          <img src="images/education/laptop-desk-banner.jpg" class="d-block w-100 features-slides" alt="...">
           <img class="slide-logo" src="images/transparent-logo.png" height = 115px width= 495px>
           <div class="carousel-caption d-none d-md-block">
             <h5>Second slide label</h5>
@@ -170,7 +174,7 @@
       </ul> -->
       <table id="features-section">
         <tr>
-          <td id="feature-1"><img class="features-icons" src="images/icons/letter-blocks.png">&nbsp;&nbsp;Educational Programs</td>
+          <td id="feature-1"><img class="features-icons features-hover" src="images/icons/letter-blocks.png">&nbsp;&nbsp;Educational Programs</td>
           <!-- <td id="table-image" rowspan="3"><img id="features-image" src="images/education/love-to-learn.jpg"></td> -->
         </tr>
         <!-- <tr>
@@ -178,10 +182,10 @@
           <td id="table-image" rowspan="3"><img id="features-image" src="images/education/love-to-learn.jpg">
         </tr> -->
         <tr>
-          <td id="feature-2"><img class="features-icons" src="images/icons/apple.png">&nbsp;&nbsp;Highly Qualified Tutors</td>
+          <td id="feature-2"><img class="features-icons features-hover" src="images/icons/apple.png">&nbsp;&nbsp;Highly Qualified Tutors</td>
         </tr>
         <tr>
-          <td id="feature-3"><img class="features-icons" src="images/icons/school-bus.png">&nbsp;&nbsp;<span id="bus">Various Delivery Methods</span></td>
+          <td id="feature-3"><img class="features-icons features-hover" src="images/icons/school-bus.png">&nbsp;&nbsp;<span id="bus">Various Delivery Methods</span></td>
         </tr>
       </table>      
       <!-- <img id="features-image" height="350px" width="500px" src="images/education/love-to-learn.jpg"> -->
@@ -217,6 +221,7 @@
         <b>Harjot Gakhal</b>
       </div>
     </div>
+
     <footer>  
        <div id="footer-content">
         <hr>
