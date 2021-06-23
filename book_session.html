@@ -6,6 +6,7 @@
     <!-- Stylsheet Imports-->
     <link rel="stylesheet" href="website_layout.css">
     <!-- <link rel="stylesheet" href="programs.css"> -->
+    <link rel="stylesheet" href="book_session.css">
     <!--bootstrap 4.6 imports-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
@@ -14,6 +15,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
     <!-- bootstrap mobile import-->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <!-- bootstrap 4.5 imports -->
+   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" />
     <!--Banner Image slideshow imports-->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
@@ -31,7 +34,6 @@
     <div id=header>
       <address id="contact-info">416-275-5096 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
         <a id="email" href="mailto:john@leapfroglearning.ca">john@leapfroglearning.ca</a> 
-        <!--FIX BOOK SESSION LINK-->
         <a id="book-session" href="#">Book Session</a> 
       </address> 
       <hr>
@@ -104,12 +106,18 @@
       </div>
     </nav>
 
-
    <div id="calendar">
-    <iframe src="https://calendar.google.com/calendar/embed?src=6btm5dabkbgh8l4g793fa29hq4%40group.calendar.google.com&ctz=America%2FToronto" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    <div class="container my-4">
+      <div class="md-form">
+        <input placeholder="Selected date" type="date" id="date-picker-example" class="form-control datepicker">
+      </div>
+    </div>
+    <script>
+      // Data Picker Initialization
+      $('.datepicker').pickadate();
+    </script>
    </div>
     
-
     <footer>  
       <div id="footer-content">
        <hr>
