@@ -1,3 +1,83 @@
 #date-picker-example {
   width: 15.5%;
 }
+
+#consultation {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.input-field {
+  height: 45px;
+}
+
+#inputName, #inputEmail4, #phoneNumber {
+  border-radius: 7px;
+  padding-left: 25px;
+  width: 250px;
+}
+
+span {
+  position: absolute;
+  margin-left: 5px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.bi-person-fill, #email-input, .bi-phone-fill {
+  color: #888;
+}
+
+#consultation-container {
+  margin: auto;
+  width: fit-content;
+}
+
+#contact-header {
+  height: 50px;
+  background-color: rgb(78, 124, 165, 0.8);
+  margin-left: 20px;
+  width: 32.6%;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+#consultation {
+  border: 1px solid rgb(206, 212, 218);
+  padding: 30px;
+  width: fit-content;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+#form-header {
+  color: white;
+  font-weight: bold;
+  /* text-align: center; */
+  /* margin-left: 4%; */
+  position: relative;
+  left: 30px;
+  top: 5px;
+  font-size: 30px;
+}
+
+#submit-button {
+  width: 440px;
+  margin-left: -5px;
+}
+
+.grid-container-contact {
+  display: grid;
+  grid-template-columns: auto auto;
+  /* margin: auto; */
+  margin-right: 10%;
+  /* width: fit-content; */
+  margin-top: 80px;
+}
+
+.grid-item-contact {
+  /* padding: 20px; */
+  text-align: center;
+}
