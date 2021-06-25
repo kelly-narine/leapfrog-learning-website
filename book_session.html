@@ -109,11 +109,11 @@
     </nav>
 
 
-    <div id="consultation-container">
-      <div id="contact-header">
-        <p id="form-header">Book Session</p>
+    <div id="session-container">
+      <div id="session-header">
+        <p id="form-name">Book Session</p>
       </div>
-      <div id="consultation">
+      <div id="session-form">
         <form method="POST" name="myemailform" action="form-to-email.php">
           <div class="form-row">
             <div class="form-group col-md-2 form-group-icon">
@@ -122,6 +122,36 @@
               </span>
               <input type="text" name="name" class="form-control input-field" id="inputName" placeholder="Name">   
             </div>
+            <!-- <div class="form-group col-md-2">
+              <span>
+                <i class="bi bi-envelope-fill" id="email-input"></i>
+              </span>
+              <input type="email" name="email" class="form-control input-field" id="inputEmail" placeholder="Email">
+            </div> -->
+            <div class="form-group col-md-2">
+              <div id="calendar">
+                <div class="container">
+                    <input placeholder="Selected date" type="date" id="date-picker-example" class="form-control datepicker">
+                </div>
+                <script>
+                  // Data Picker Initialization
+                  $('.datepicker').pickadate();
+                </script>
+               </div>
+            </div>
+            <!-- ORIGINAL CALDENDAR CODE-->
+              <!-- <div id="calendar">
+                <div class="container my-4">
+                  <div class="md-form">
+                    <input placeholder="Selected date" type="date" id="date-picker-example" class="form-control datepicker">
+                  </div>
+                </div>
+                <script>
+                  // Data Picker Initialization
+                  $('.datepicker').pickadate();
+                </script>
+               </div> -->
+            
           </div>
           <div class="form-row">
             <div class="form-group col-md-2">
@@ -141,7 +171,7 @@
           </div>
           <div class="form-row">
             <div class="form-group">
-              <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="5" cols="50" placeholder="Description"></textarea>
+              <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="6" cols="30" placeholder="Description"></textarea>
             </div>
           </div>
           <button id="submit-button" name="submit" type="submit" class="btn btn-primary">Submit</button>
@@ -149,7 +179,7 @@
       </div>
     </div>
 
-   <div id="calendar">
+   <!-- <div id="calendar">
     <div class="container my-4">
       <div class="md-form">
         <input placeholder="Selected date" type="date" id="date-picker-example" class="form-control datepicker">
@@ -159,7 +189,7 @@
       // Data Picker Initialization
       $('.datepicker').pickadate();
     </script>
-   </div>
+   </div> -->
     
     <footer>  
       <div id="footer-content">

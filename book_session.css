@@ -29,30 +29,29 @@ span {
   color: #888;
 }
 
-#consultation-container {
+#session-container {
   margin: auto;
   width: fit-content;
 }
 
-#contact-header {
+#session-header {
   height: 50px;
   background-color: rgb(78, 124, 165, 0.8);
-  margin-left: 20px;
-  width: 32.6%;
+  width: 250px;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
 }
 
-#consultation {
+#session-form {
   border: 1px solid rgb(206, 212, 218);
-  padding: 30px;
+  padding: 30px 55px 30px 30px;
   width: fit-content;
   border-top-right-radius: 7px;
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
 }
 
-#form-header {
+#form-name {
   color: white;
   font-weight: bold;
   /* text-align: center; */
@@ -65,7 +64,9 @@ span {
 
 #submit-button {
   width: 440px;
-  margin-left: -5px;
+  position: relative;
+  left: 5%;
+  margin-top: 10px;
 }
 
 .grid-container-contact {
@@ -81,3 +82,16 @@ span {
   /* padding: 20px; */
   text-align: center;
 }
+
+#date-picker-example {
+  width: 170px;
+  border-radius: 7px;
+}
+
+#calendar {
+  position: relative;
+  left: 175px;
+  margin: auto;
+}
+
+
