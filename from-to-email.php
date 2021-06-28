@@ -24,6 +24,4 @@
 
   mail($to, $email_subject, $email_body, $headers);
   // header("Location: contact.html?mailsend");
-  // This is a comment
-  
 ?>
