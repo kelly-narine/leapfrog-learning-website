@@ -45,7 +45,12 @@
   top: 12.5px;
 }
 
+/* #home-icon {
+  position: absolute;
+} */
+
 #programs-icon {
+  /* position: absolute; */
   position: relative;
   left: 9px;
   top: 0.5px;
@@ -57,6 +62,7 @@
 }
 
 #course-packages-icon {
+  /* position: absolute; */
   position: relative;
   left: 40px;
   top: 9px;
@@ -88,12 +94,14 @@
 } */
 
 #about-me-icon {
+  /* position: absolute; */
   position: relative;
   left: 11.5px;
   top: 5.5px;
 }
 
 #contact-icon {
+  /* position: absolute; */
   position: relative;
   left: 5px;
 }

@@ -1,8 +1,8 @@
 <?php
-  if(!isset($_POST['submit'])) {
+  // if(!isset($_GET['submit'])) {
 
-    echo "Please submit form.";
-  }
+  //   echo "Please submit form.";
+  // }
 
   $name = $_POST['name'];
   $visitor_email = $_POST['email'];
@@ -14,8 +14,9 @@
      exit;
   }
 
-  $email_from = $visitor_email;
-  $email_subject = "New Form Submission";
+  // $email_from = $visitor_email;
+  $email_from = "inquiry@leapfroglearning.ca";
+  $email_subject = "Session Inquiry";
   $email_body = "You have received a message from the user $name.\n" . 
                 "email address: $visitor_email\n" . "Here is the message:\n $message";
   
@@ -23,5 +24,10 @@
   $headers = "From: $email_from \r\n";
 
   mail($to, $email_subject, $email_body, $headers);
-  // header("Location: contact.html?mailsend");
+  header('Location: http://www.kiwebcreations.com');
+  exit();
+
+/*NOTE: Redirect to a thank you page after submitting request*/
+  /*<?php header("Location: http://www.example.com/another-page.php"); exit(); ?>*/
+  
 ?>
