@@ -15,17 +15,20 @@
      exit;
   }
 
+  $result = explode("T", $date);
+
+
   // $email_from = $visitor_email;
-  $email_from = "inquiry@leapfroglearning.ca";
-  $email_subject = "Session Inquiry";
+  $email_from = "book-session@leapfroglearning.ca";
+  $email_subject = "Session Inquiry from leapfroglearning.ca";
   $email_body = "You have received a message from the user $name.\n" . 
-                "email address: $visitor_email\n" . "Here is the message:\n $message" . $date;
+                "email address: $visitor_email\n" . "Here is the message:\n$message " .  "$result[0]" . " $result[1]";
   
   $to = "knarine12@hotmail.ca";
   $headers = "From: $email_from \r\n";
 
   mail($to, $email_subject, $email_body, $headers);
-  header('Location: http://www.kiwebcreations.com');
+  header('Location: http://www.leapfroglearning.ca');
   exit();
 
 /*NOTE: Redirect to a thank you page after submitting request*/
