@@ -15,7 +15,7 @@
     <!-- bootstrap mobile import-->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    <!-- bootstrap 4.5 imports -->
-   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" />
+   <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" /> -->
     <!--Banner Image slideshow imports-->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
@@ -29,7 +29,16 @@
     <!--Medium Dosis-->
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
     <!-- Bootstrap Icons Import -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    <!-- Date Time Calendar Imports -->
+    <link rel="stylesheet" type="text/css" href="/jquery.datetimepicker.css"/>
+    <script src="/jquery.js"></script>
+    <script src="/build/jquery.datetimepicker.full.min.js"></script> 
+
   </head>
   <body id="body-content">
     <div id=header>
@@ -121,7 +130,7 @@
         <p id="form-name">Book Session</p>
       </div>
       <div id="session-form">
-        <form method="POST" name="myemailform" action="form-to-email.php">
+        <form method="POST" name="myemailform" action="book-session.php">
           <div class="form-row">
             <div class="form-group col-md-2 form-group-icon">
               <span>
@@ -135,30 +144,25 @@
               </span>
               <input type="email" name="email" class="form-control input-field" id="inputEmail" placeholder="Email">
             </div> -->
+            
+
+            <!--CURRENT WORKING CALENDAR-->
             <div class="form-group col-md-2">
               <div id="calendar">
                 <div class="container">
-                    <input placeholder="Selected date" type="date" id="date-picker-example" class="form-control datepicker">
+                    <input placeholder="mm/dd/yyyy --:-- --" type="text" id="date-picker-example" name="date" class="form-control datepicker">
                 </div>
                 <script>
                   // Data Picker Initialization
+                  var dtt = document.getElementById('date-picker-example');
+                  dtt.onfocus = function (event) {
+                      this.type = 'datetime-local';
+                      this.focus();
+                  }
                   $('.datepicker').pickadate();
                 </script>
                </div>
-            </div>
-            <!-- ORIGINAL CALDENDAR CODE-->
-              <!-- <div id="calendar">
-                <div class="container my-4">
-                  <div class="md-form">
-                    <input placeholder="Selected date" type="date" id="date-picker-example" class="form-control datepicker">
-                  </div>
-                </div>
-                <script>
-                  // Data Picker Initialization
-                  $('.datepicker').pickadate();
-                </script>
-               </div> -->
-            
+            </div> 
           </div>
           <div class="form-row">
             <div class="form-group col-md-2">
@@ -185,19 +189,6 @@
         </form>
       </div>
     </div>
-
-   <!-- <div id="calendar">
-    <div class="container my-4">
-      <div class="md-form">
-        <input placeholder="Selected date" type="date" id="date-picker-example" class="form-control datepicker">
-      </div>
-    </div>
-    <script>
-      // Data Picker Initialization
-      $('.datepicker').pickadate();
-    </script>
-   </div> -->
-    
     <footer>  
       <div id="footer-content">
        <hr>

@@ -54,8 +54,13 @@ ul.breadcrumb-nav li a:hover {
   color: rgb(182, 177, 177);
 }
 
-#date-picker-example {
+/* #date-picker-example {
   width: 15.5%;
+} */
+
+#date-picker-example {
+  width: 250px;
+  border-radius: 7px;
 }
 
 #consultation {
@@ -141,15 +146,11 @@ span {
   text-align: center;
 }
 
-#date-picker-example {
-  width: 170px;
-  border-radius: 7px;
-}
-
 #calendar {
   position: relative;
   left: 175px;
   margin: auto;
+  /* width: 170px; */
 }
 
 
