@@ -6,5 +6,6 @@
     <h1>Thank you for booking a session with Leapfrog Learning</h1>
     <p>An email has been sent with your session confirmation (check your spam/junk folder)</p>
     
+    <?php session_start(); echo $name; ?>
   </body>
 </html>

@@ -142,6 +142,12 @@
   font-size: 30px;
 }
 
+#testimonials-header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
 ul {
   padding-top: 20px;
   display: inline-block;
@@ -153,7 +159,6 @@ ul {
   margin: auto;
   width: fit-content;
   text-align: center;
-  padding-bottom: 550px;
 }
 
 #test1, #test2, #test3 {
