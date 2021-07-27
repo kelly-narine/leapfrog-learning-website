@@ -68,7 +68,33 @@
   top: 9px;
 }
 
+#house-icon {
+  /* margin-bottom: -10px; */
+}
+.bi-house-fill {
+  color: #E18D99;
+  font-size: 50px;
+}
 
+.bi-file-earmark-text-fill {
+  color: #E18D99;
+  font-size: 50px;
+}
+
+.bi-briefcase-fill {
+  color: #E18D99;
+  font-size: 50px;
+}
+
+.bi-person-lines-fill {
+  color: #E18D99;
+  font-size: 50px;
+}
+
+.bi-envelope-open-fill {
+  color: #E18D99;
+  font-size: 50px;
+}
 /* NOTE: below pertains to programs menu popping up on hover */
 
 /* .programs-hover:hover + #programs{
