@@ -5,7 +5,6 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-
 #contact-info {
   padding-left: 25px;
   color:white;
@@ -73,27 +72,27 @@
 }
 .bi-house-fill {
   color: #E18D99;
-  font-size: 50px;
+  font-size: 20px;
 }
 
 .bi-file-earmark-text-fill {
   color: #E18D99;
-  font-size: 50px;
+  font-size: 20px;
 }
 
 .bi-briefcase-fill {
   color: #E18D99;
-  font-size: 50px;
+  font-size: 20px;
 }
 
 .bi-person-lines-fill {
   color: #E18D99;
-  font-size: 50px;
+  font-size: 20px;
 }
 
 .bi-envelope-open-fill {
   color: #E18D99;
-  font-size: 50px;
+  font-size: 20px;
 }
 /* NOTE: below pertains to programs menu popping up on hover */
 
@@ -173,12 +172,20 @@ th {
   padding-top: 15px;
 }
 
+
 #footer-content {
   margin-top: 200px;
   padding-left: 20px;
   padding-bottom: 15px;
   font-size: 14px;
   font-family: 'Open sans', sans-serif;
+  width:100% !important;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 300px)  {
+  #footer-content {
+    padding-right: 1000px;
+  }
 }
 
 /*-----------------TEXT ANIMATION-------------------*/

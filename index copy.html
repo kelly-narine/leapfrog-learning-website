@@ -71,15 +71,14 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item active" id="navbar-item">
-            <a href="index.html">&nbsp;<i class="bi bi-house-fill"></i></a> <!--Renamed home page--> <!--<img class="navbar-icons" id="home-icon" src="images/icons/school.png"> -->
-            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            <!--Renamed home page--> <!--<img class="navbar-icons" id="home-icon" src="images/icons/school.png"> -->
+            <a class="nav-link" href="index.html"><i class="bi bi-house-fill"></i>&nbsp;Home<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item dropdown programs-hover" id="navbar-item">
-            <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              &nbsp;&nbsp;&nbsp;<i class="bi bi-file-earmark-text-fill"></i>
+            <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">           
             </a>
             <a class="nav-link dropdown-toggle program-text" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Programs
+              <i class="bi bi-file-earmark-text-fill"></i>&nbsp;Programs
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <div id="programs-table">
@@ -93,15 +92,15 @@
                     <td class="subjects"><a href="programs_esl.html"><button class="subject-buttons">ESL</button></a></td>
                   </tr>
                   <tr>
-                    <td class="subjects"><a href="programs_science.html"><button class="subject-buttons">Science</button></a></td>
+                    <td class="subjects"><a href="programs_exam.html"><button class="subject-buttons">Exam Prep</button></a></td>
                     <td class="subjects"><a href="programs_computer_basics.html"><button class="subject-buttons">Computer Basics</button></a></td>
                   </tr>
                   <tr>
-                    <td class="subjects"><a href="programs_exam.html"><button class="subject-buttons">Exam Prep</button></a></td>
+                    <td class="subjects"><a href="programs_essay.html"><button class="subject-buttons">Essay Writing</button></a></td>
                     <td class="subjects"><a href="programs_computerized_accounting.html"><button class="subject-buttons">Computerized Accounting</button></a></td>
                   </tr>
                   <tr>
-                    <td class="subjects"><a href="programs_essay.html"><button class="subject-buttons">Essay Writing</button></a></td>
+                    <td class="subjects"><a href="programs_literature.html"><button class="subject-buttons">Literature</button></a>
                     <td class="subjects"><a href="programs_job_readiness.html"><button class="subject-buttons">Job Readiness Workshops</button></a></td>
                   </tr>
                   <tr>
@@ -114,17 +113,14 @@
               <a class="dropdown-item" href="#">Something else here</a> -->
             </div>
           </li>
-          <li class="nav-item" id="navbar-item">
-            <a href="course_packages.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="bi bi-briefcase-fill"></i></a>
-            <a class="nav-link" href="course_packages.html"> Course Packages</a>
+          <li class="nav-item" id="navbar-item">            
+            <a class="nav-link" href="course_packages.html"><i class="bi bi-briefcase-fill"></i>&nbsp;Course Packages</a>
           </li>
           <li class="nav-item" id="navbar-item">
-            <a href="about_me.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="bi bi-person-lines-fill"></i></a>
-            <a class="nav-link" href="about_me.html">About Me</a>
+            <a class="nav-link" href="about_me.html"><i class="bi bi-person-lines-fill"></i>&nbsp;&nbsp;About Me</a>
           </li>
           <li class="nav-item" id="navbar-item">
-            <a href="contact.html">&nbsp; &nbsp;<i class="bi bi-envelope-open-fill"></i></a>
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="contact.html"><i class="bi bi-envelope-open-fill"></i>&nbsp;Contact</a>
           </li>
         </ul>
       </div>
@@ -188,58 +184,76 @@
   </div>
 
     <!-- <div id="features-background"> -->
-    <div id="features">
-      <h3 id = "features-header">FEATURES</h3>
-      <!-- <ul>
-        <li>Customized Educational Programs</li>
-        <li>Highly Qualified Tutors</li>
-        <li>Various Delivery Methods</li>
-      </ul> -->
-      <table id="features-section">
-        <tr>
-          <td id="feature-1"><img class="features-icons features-hover" src="images/icons/letter-blocks.png">&nbsp;&nbsp;Educational Programs</td>
-          <!-- <td id="table-image" rowspan="3"><img id="features-image" src="images/education/love-to-learn.jpg"></td> -->
-        </tr>
-        <!-- <tr>
-          <td></td>
-          <td id="table-image" rowspan="3"><img id="features-image" src="images/education/love-to-learn.jpg">
-        </tr> -->
-        <tr>
-          <td id="feature-2"><img class="features-icons features-hover" src="images/icons/apple.png">&nbsp;&nbsp;Highly Qualified Tutors</td>
-        </tr>
-        <tr>
-          <td id="feature-3"><img class="features-icons features-hover" src="images/icons/school-bus.png">&nbsp;&nbsp;<span id="bus">Various Delivery Methods</span></td>
-        </tr>
-      </table>      
-      <!-- <img id="features-image" height="350px" width="500px" src="images/education/love-to-learn.jpg"> -->
+    <div class="row">
+      <div class="col-md-4 col-sm-12 col-lg-12">
+        <div id="features">
+    
+          <h3 id="features-header">FEATURES</h3>
+          <!-- <ul>
+              <li>Customized Educational Programs</li>
+              <li>Highly Qualified Tutors</li>
+              <li>Various Delivery Methods</li>
+            </ul> -->
+          <table id="features-section">
+            <tr>
+              <td id="feature-1"><img class="features-icons features-hover"
+                  src="images/icons/letter-blocks.png">&nbsp;&nbsp;Educational Programs</td>
+              <!-- <td id="table-image" rowspan="3"><img id="features-image" src="images/education/love-to-learn.jpg"></td> -->
+            </tr>
+            <!-- <tr>
+                <td></td>
+                <td id="table-image" rowspan="3"><img id="features-image" src="images/education/love-to-learn.jpg">
+              </tr> -->
+            <tr>
+              <td id="feature-2"><img class="features-icons features-hover" src="images/icons/apple.png">&nbsp;&nbsp;Highly
+                Qualified Tutors</td>
+            </tr>
+            <tr>
+              <td id="feature-3"><img class="features-icons features-hover"
+                  src="images/icons/school-bus.png">&nbsp;&nbsp;<span id="bus">Various Delivery Methods</span></td>
+            </tr>
+          </table>
+          <!-- <img id="features-image" height="350px" width="500px" src="images/education/love-to-learn.jpg"> -->
+        </div>
+      </div>
     </div>
   <!-- </div> -->
 
 
-
-    <div id="testimonials">
-      <h3 id="testimonials-header">TESTIMONIALS</h3>
-      <div id="test1">
-        <!-- <img id="test1-text-box" src ="images/backgrounds/homepage-background.png"> -->
-        <i>" When he was about 10 years old, it was clear that my son was having a lot of trouble focusing in on his lessons
-          and expressing himself clearly. He was falling through the cracks. Mr. Little worked with my son from Grade 6
-          up until to Grade 12, and now, he is currently in the Computer Engineering Program at Humber College... I can 
-          tell you, that it was the confidence that Mr. Little helped him build, that made all the difference".</i> 
-      </div>
-      <div id="test2">
-        <i>" The dedicated time that Mr. Little spends with our children is more valuable than a whole day in their regular
-        classroom... While our kids work on improving their math skills, fixing up their essays and papers, finishing up
-        homework and projects, or studying ahead in the unit, we can be comfortable knowing that they are working with someone
-        who understands their social needs, and will actually educate our children."</i>
-      </div>
-      <div id="test3">
-        <i>" It is the consistent presence of Mr. Little that has allowed my son to thrive in school.. It was only a year ago that
-        he came home with a report card of all C's, now he is proud to show me that 6 out of his 8 subjects are A's. I would
-        recommend him to anyone."</i>
-        <br><br><br><br><br>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <div id="testimonials">
+          <h3 id="testimonials-header">TESTIMONIALS</h3>
+          <div id="test1">
+            <!-- <img id="test1-text-box" src ="images/backgrounds/homepage-background.png"> -->
+            <i>" When he was about 10 years old, it was clear that my son was having a lot of trouble focusing in on his
+              lessons
+              and expressing himself clearly. He was falling through the cracks. Mr. Little worked with my son from Grade 6
+              up until to Grade 12, and now, he is currently in the Computer Engineering Program at Humber College... I can
+              tell you, that it was the confidence that Mr. Little helped him build, that made all the difference".</i>
+          </div>
+          <div id="test3">
+            <i>" It is the consistent presence of Mr. Little that has allowed my son to thrive in school.. It was only a
+              year ago that
+              he came home with a report card of all C's, now he is proud to show me that 6 out of his 8 subjects are A's. I
+              would
+              recommend him to anyone."</i>
+          </div>
+          <div id="test2">
+            <i>" The dedicated time that Mr. Little spends with our children is more valuable than a whole day in their
+              regular
+              classroom... While our kids work on improving their math skills, fixing up their essays and papers, finishing
+              up
+              homework and projects, or studying ahead in the unit, we can be comfortable knowing that they are working with
+              someone
+              who understands their social needs, and will actually educate our children."</i>
+          </div>
+        </div>
       </div>
     </div>
 
+  
+    
     <footer>  
        <div id="footer-content">
         <hr>
@@ -251,5 +265,6 @@
         leapfroglearning.ca
        </div> 
     </footer>
+  
   </body>
-</html>
+  </html>
