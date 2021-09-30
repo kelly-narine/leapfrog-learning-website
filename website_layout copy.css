@@ -182,10 +182,11 @@ th {
   width:100% !important;
 }
 
-@media only screen and (max-width: 600px) and (min-width: 300px)  {
-  #footer-content {
-    padding-right: 1000px;
-  }
+@media only screen and (max-width: 520px) and (min-width: 200px)  {
+  body {
+    overflow-x: hidden; /* gets rids of horizonal scrollbar */
+    min-width: min-content;
+  } 
 }
 
 /*-----------------TEXT ANIMATION-------------------*/

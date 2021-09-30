@@ -194,6 +194,11 @@ ul {
   height: 260px;
 }
 
-
+@media only screen and (max-width: 520px) and (min-width: 200px)  {
+  body {
+    overflow-x: hidden; /* gets rids of horizonal scrollbar */
+    min-width: min-content;
+  }
+}
 
 
