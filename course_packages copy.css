@@ -1,0 +1,139 @@
+#body-content {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  #banner-image {
+    opacity: 0.6; 
+  }
+  
+  #banner-container {
+    position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: black;
+  }
+  
+  .centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+  }
+  
+  .nav-text {
+    position: absolute;
+    top: 65%;
+    /* left: 48.85%; may need to center */
+    left: 48.6%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Open sans', sans-serif;
+    font-size: 40px;
+  }
+  
+  ul.breadcrumb-nav li {
+    display: inline;
+    font-size: 16px;
+  }
+  ul.breadcrumb-nav li+li:before {
+    padding: 5px;
+    color: white;
+    content: ">\00a0";
+  }
+  ul.breadcrumb-nav li a {
+    color: white;
+    text-decoration: none;
+  }
+  ul.breadcrumb-nav li a:hover {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #current-page {
+    color: rgb(182, 177, 177);
+  }
+  
+  .headings {
+    padding-top: 30px;
+    text-align: center;
+    color: #E18D99;
+  }
+  
+  .grid-container {
+    /* display: grid; */
+    /* grid-template-columns: auto auto auto auto; */
+    margin: auto; 
+    width: fit-content;
+  }
+  
+   .grid-container-continuing {
+    display: grid;
+    margin: auto;
+    width: fit-content;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  
+  /*.grid-container-continuing-2 {
+    display: grid;
+    margin: auto;
+    width: fit-content;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  } */
+  
+  .grid-item {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .grid-item-continuing {
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 60px;  
+  text-align: center;
+  } 
+  
+  /*.grid-item-continuing-2 {
+    padding: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+  } */
+  
+  /* .card-text li {
+    text-align: left;
+    list-style: none;
+  }
+  
+  .card-text li:before {
+    content: '✓';
+    font-weight: bold;
+    padding-right: 6px; 
+  }
+   */
+  .card-text p {
+    text-align: center;
+  }
+  /* #math-para {
+    text-align: left;
+  } */
+  
+  /* #post-secondary-heading {
+    padding-bottom: 30px;
+  }
+  
+  #continuing-heading {
+    padding-top: 50px;
+  } */
+  
+  /* footer {
+    padding-top: 100px; 
+    text-align: left;
+  } */
+  
+  

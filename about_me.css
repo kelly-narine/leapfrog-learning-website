@@ -69,8 +69,12 @@ ul.breadcrumb-nav li a:hover {
   font-family: 'Dosis', sans-serif;
   font-size: 35px;
   padding-bottom: 20px;
-  margin-left: 175px;
+  /* margin-left: 175px; */
   text-transform: uppercase;
+}
+#about {
+  margin-bottom: -30px;
+  display: none;
 }
 
 #bio-section {
@@ -91,7 +95,8 @@ ul.breadcrumb-nav li a:hover {
 #learn-image {
   border-radius: 5px;
   margin-left: 90px;
-  width: 550px;
+  margin-top: 40px;
+  width: 100%;
   height: 400px;
 }
 
@@ -104,8 +109,8 @@ ul.breadcrumb-nav li a:hover {
 }
 
 #offer-list {
-  margin-left: 175px;
-  padding-bottom: 150px;
+  /* margin-left: 175px; */
+  /* padding-bottom: 150px; */
   color: rgb(108, 117, 125);
   font-size: 15px;
   list-style: none;
@@ -120,4 +125,55 @@ ul.breadcrumb-nav li a:hover {
 #offer-list li {
   padding-bottom: 5px;
 }
+
+@media screen and (min-width: 300px) and (max-width: 415px) {
+  .centered-text {
+    font-size: 20px;
+  }
+  .breadcrumb-nav li, .breadcrumb-nav li a {
+    font-size: 10px !important;
+    margin-left: -10px !important;
+  }
+  ul.breadcrumb-nav li+li:before {
+    padding-left: 10px !important;
+  }
+  .headers {
+    font-size: 22px;
+    margin:auto;
+    width:fit-content;
+    /* margin-bottom: -45px; */
+  }
+  #profile-pic {
+    height: 155px;
+    width: 130px;
+    padding: 0px;
+    margin-top: 15px;
+  }
+  #bio {
+    font-size: 12px;
+    width:fit-content;
+    margin:auto;
+  }
+  #bio-text {
+    padding-bottom: 18px;
+  }
+  #learn-image {
+    margin:auto;
+    width: fit-content;
+    height: 200px;
+    width: 225px;
+
+  }
+  #offer-list {
+    margin-left: -35px;
+    padding-bottom: 0px;
+    margin-bottom: -50px;
+    font-size: 12px;
+  }
+  #offer {
+    margin-top: -20px;
+  }
+
+}
+
 

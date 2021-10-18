@@ -62,15 +62,12 @@ ul.breadcrumb-nav li a:hover {
   background-color: rgb(250, 110, 79, 0.65);
 }
 
-#location-info {
+/* #location-info, #telephone-info, #email-info {
   position: relative;
-  top: 24.5px;
-}
+  margin:auto;
+  width:fit-content;
+} */
 
-#telephone-info {
-  padding-left: 150px;
-  padding-right: 150px;
-}
 
 #location-text, #phone-text, #email-text {
   display: inline-table;
@@ -109,7 +106,7 @@ ul.breadcrumb-nav li a:hover {
 }
 
 #map {
-  margin-left: 200px;
+  /* margin-left: 200px; */
 }
 
 #consultation {
@@ -184,6 +181,62 @@ span {
 .grid-item-contact {
   /* padding: 20px; */
   text-align: center;
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 415px) {
+  .centered-text {
+    font-size: 20px;
+  }
+  .breadcrumb-nav li, .breadcrumb-nav li a {
+    font-size: 10px !important;
+    margin-left: -10px !important;
+  }
+  ul.breadcrumb-nav li+li:before {
+    padding-left: 10px !important;
+  }
+  #map-container {
+    margin-bottom: 20px;
+  }
+  #map  {
+    /* width: 275px; */
+    height: 275px;
+    position: relative;
+    margin:auto;
+    width:fit-content;
+  }
+  #consultation {
+    /* width: 275px; */
+    /* position: relative; */
+    /* margin:auto;
+    width:fit-content; */
+  }
+  #submit-button {
+    width: 100px;
+  }
+  #inputName, #inputEmail4, #phoneNumber, #exampleFormControlTextarea1 {
+    width: 200px;
+  }
+  #form-header {
+    /* position: relative; */
+     /* margin:auto; 
+     width:fit-content;  */
+     font-size: 16px;
+     padding-top: 7px;
+  }
+  #banner-container {
+    margin-top: 18px;
+  }
+  #location-text h5, #phone-text h5, #email-text h5 {
+    font-size: 16px;
+  }
+  #location-text p, #phone-text p, #email-text p {
+    font-size: 12px;
+  }
+  /* .bi-person-fill {
+
+  } */
+
 }
 
 

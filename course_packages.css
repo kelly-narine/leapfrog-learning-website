@@ -1,0 +1,124 @@
+#body-content {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  #banner-image {
+    opacity: 0.6; 
+  }
+  
+  #banner-container {
+    position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: black;
+  }
+  
+  .centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+  }
+  
+  .nav-text {
+    position: absolute;
+    top: 65%;
+    /* left: 48.85%; may need to center */
+    left: 48.6%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Open sans', sans-serif;
+    font-size: 40px;
+  }
+  
+  ul.breadcrumb-nav li {
+    display: inline;
+    font-size: 16px;
+  }
+  ul.breadcrumb-nav li+li:before {
+    padding: 5px;
+    color: white;
+    content: ">\00a0";
+  }
+  ul.breadcrumb-nav li a {
+    color: white;
+    text-decoration: none;
+  }
+  ul.breadcrumb-nav li a:hover {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #current-page {
+    color: rgb(182, 177, 177);
+  }
+  
+  .headings {
+    padding-top: 30px;
+    text-align: center;
+    color: #E18D99;
+  }
+  
+.card-body {
+  text-align: center;
+}
+
+.container {
+  margin: auto !important;
+  width: fit-content !important;
+  padding-top: 20px;
+}
+
+#course-text {
+  width:fit-content;
+  margin:auto;
+  font-size: 14px;
+  margin-top:20px;
+  /* text-align: left !important; */
+}
+  
+@media screen and (max-width: 991px) and (min-width: 200px) {
+  #packages {
+    margin: auto !important; 
+    width: fit-content !important; 
+    /* margin-left: 50px !important; */
+  } 
+  .card {
+    /* margin-bottom: 10px; */
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 415px) {
+  .centered-text {
+    font-size: 20px;
+  }
+  .breadcrumb-nav li, .breadcrumb-nav li a {
+    font-size: 10px !important;
+    margin-left: -10px !important;
+  }
+  ul.breadcrumb-nav li+li:before {
+    padding-left: 10px !important;
+  }
+  .card {
+    /* margin-bottom: 10px; */
+    margin:auto;
+    width: fit-content;
+    margin-bottom: 10px;
+    
+  }
+  #course-text {
+    width:fit-content;
+    margin:auto;
+    font-size: 12px;
+    margin-top:10px;
+    text-align: center;
+  }
+  #continuing-heading {
+    font-size: 22px;
+  }
+
+}

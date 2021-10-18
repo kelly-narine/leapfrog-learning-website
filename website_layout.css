@@ -155,5 +155,16 @@ th {
   }
 }
 
+@media screen and (min-width: 300px) and (max-width: 415px) {
+  #header {
+    font-size: 11px;
+  }
+  #footer-content {
+    font-size: 11px;
+    padding-left: 0px;
+    text-align: center;
+  }
+}
+
 /*-----------------TEXT ANIMATION-------------------*/
 

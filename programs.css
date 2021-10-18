@@ -24,18 +24,32 @@
   font-size: 40px;
 }
 
+@media screen and (min-width: 300px) and (max-width: 415px) {
+  .centered-text {
+    font-size: 20px;
+  }
+  .breadcrumb-nav li, .breadcrumb-nav li a {
+    font-size: 10px !important;
+    margin-left: -10px !important;
+  }
+  ul.breadcrumb-nav li+li:before {
+    padding-left: 10px !important;
+  }
+
+}
+
 .nav-text {
   position: absolute;
   top: 65%;
-  /* left: 48.85%; may need to center */
   left: 48.6%;
   transform: translate(-50%, -50%);
   color: white;
   font-family: 'Open sans', sans-serif;
-  font-size: 40px;
+  /* font-size: 40px; */
+   margin-top: 5px;  
 }
 
-ul.breadcrumb-nav li {
+.breadcrumb-nav li {
   display: inline;
   font-size: 16px;
 }

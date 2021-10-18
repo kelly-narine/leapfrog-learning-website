@@ -46,7 +46,7 @@
     <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
       <nav class="navbar navbar-expand-lg navbar-light">
       <!-- <img id ="logo" src = "images/leapfrog_logo2.png" height = 115px width= 495px/> -->
-      <a href="index.html"><img id ="logo" src = "images/leapfrog_logo2.png" height = 115px width= 495px/></a>
+      <a href="index.html"><img id ="logo" src = "images/leapfrog_logo2.png" height = 115px width= 100%/></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -120,7 +120,16 @@
       </ul>
     </div>
 
-    <div id="session-container">
+    <center><div class ="row">
+      <div class ="col-sm-12 col-md-12 col-lg-12">
+        <h3 style="color:#E18D99; margin-top: 25px; font-family: 'Dosis', sans-serif;"><b>Call now to book a session! 416-275-5096</b></h3>
+      </div>
+    </div></center>
+    
+
+    <!--BOOK SESSION FORM-->
+
+     <!-- <div id="session-container">
       <div id="session-header">
         <p id="form-name">Book Session</p>
       </div>
@@ -132,23 +141,18 @@
                 <i class="bi bi-person-fill"></i>
               </span>
               <input type="text" name="name" class="form-control input-field" id="inputName" placeholder="Name">   
-            </div>
-            <!-- <div class="form-group col-md-2">
-              <span>
-                <i class="bi bi-envelope-fill" id="email-input"></i>
-              </span>
-              <input type="email" name="email" class="form-control input-field" id="inputEmail" placeholder="Email">
-            </div> -->
+            </div> 
+     
             
 
-            <!--CURRENT WORKING CALENDAR-->
+          
             <div class="form-group col-md-2">
               <div id="calendar">
                 <div class="container">
                     <input placeholder="mm/dd/yyyy --:-- --" type="text" id="date-picker-example" name="date" class="form-control datepicker">
                 </div>
                 <script>
-                  // Data Picker Initialization
+                  
                   var dtt = document.getElementById('date-picker-example');
                   dtt.onfocus = function (event) {
                       this.type = 'datetime-local';
@@ -183,7 +187,7 @@
           <button id="submit-button" name="submit" type="submit" class="btn btn-primary">Submit</button>
         </form>
       </div>
-    </div>
+    </div>  -->
     <footer>  
       <div id="footer-content">
        <hr>
