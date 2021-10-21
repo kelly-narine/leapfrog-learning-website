@@ -1,175 +1,283 @@
 <!DOCTYPE html>
-<html lang="en"> 
-  <head>
-    <meta charset="utf-8">
-    <title>Leap Frog Learning | Learning by Leaps and Bounds</title>
-    <!-- Stylsheet Imports-->
-    <link rel="stylesheet" href="website_layout.css">
-    <link rel="stylesheet" href="course_packages.css">
-    <!--bootstrap imports-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
-    <!-- bootstrap mobile import-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!--Banner Image slideshow imports-->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
-    <!--Font Imports-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <!--Regular Open Sans-->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <!--Semi-bold Open Sans-->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
-    <!--Medium Dosis-->
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
-  </head>
-  <body id="body-content">
-    <div id=header>
-      <address id="contact-info">416-275-5096 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-        <a id="email" href="mailto:john@leapfroglearning.ca">john@leapfroglearning.ca</a> 
-        <!--FIX BOOK SESSION LINK-->
-        <a id="book-session" href="tel:4162755096">Call Now</a> 
-      </address> 
-      <hr>
-    </div>
-    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
-      <nav class="navbar navbar-expand-lg navbar-light">
-      <!-- <img id ="logo" src = "images/leapfrog_logo2.png" height = 115px width= 495px/> -->
-      <a href="index.html"><img id ="logo" src = "images/leapfrog_logo2.png" height = 115px width= 100%/></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li id="navbar-item">
-            <a href="index.html"><img class="navbar-icons" id="home-icon" src="images/icons/school.png"></a>
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item dropdown" id="navbar-item">
-            <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <img class="navbar-icons" id="programs-icon" src="images/icons/composition-book.png">
-            </a>
-            <a class="nav-link dropdown-toggle program-text" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Programs
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <table id="programs">
-                <tr>
-                  <th>Programs for Children and Young Adults&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
-                  <th>Programs for Adults and Seniors</th>
-                </tr>
-                <tr>
-                  <td class="subjects"><a href="programs_math.html"><button class="subject-buttons">Math</button></a></td>
-                  <td class="subjects"><a href="programs_esl.html"><button class="subject-buttons">ESL</button></a></td>
-                </tr>
-                <tr>
-                  <td class="subjects"><a href="programs_exam.html"><button class="subject-buttons">Exam Prep</button></a></td>
-                  <td class="subjects"><a href="programs_computer_basics.html"><button class="subject-buttons">Computer Basics</button></a></td>
-                </tr>
-                <tr>
-                  <td class="subjects"><a href="programs_essay.html"><button class="subject-buttons">Essay Writing</button></a></td>
-                  <td class="subjects"><a href="programs_computerized_accounting.html"><button class="subject-buttons">Computerized Accounting</button></a></td>
-                </tr>
-                <tr>
-                  <td class="subjects"><a href="programs_literature.html"><button class="subject-buttons">Literature</button></a>
-                  <td class="subjects"><a href="programs_job_readiness.html"><button class="subject-buttons">Job Readiness Workshops</button></a></td>
-                </tr>
-                <tr>
-                  <td class="subjects"><a href="programs_speech.html"><button class="subject-buttons">Speech and Language Development</button></a></td>
-                </tr>
-              </table>
-              <!-- <a class="dropdown-item" href="#">Action</a>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Leap Frog Learning | Learning by Leaps and Bounds</title>
+  <!-- Stylsheet Imports-->
+  <link rel="stylesheet" href="website_layout.css">
+  <link rel="stylesheet" href="course_packages.css">
+  <!--bootstrap imports-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"></script>
+  <!-- bootstrap mobile import-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!--Banner Image slideshow imports-->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+  <!--Font Imports-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <!--Regular Open Sans-->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <!--Semi-bold Open Sans-->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+  <!--Medium Dosis-->
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body id="body-content">
+  <div id=header>
+    <address id="contact-info">416-275-5096 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a id="email" href="mailto:john@leapfroglearning.ca">john@leapfroglearning.ca</a>
+      <!--FIX BOOK SESSION LINK-->
+      <a id="book-session" href="tel:4162755096">Call Now</a>
+    </address>
+    <hr>
+  </div>
+  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <!-- <img id ="logo" src = "images/leapfrog_logo2.png" height = 115px width= 495px/> -->
+    <a href="index.html"><img id="logo" src="images/leapfrog_logo2.png" height=115px width=100% /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li id="navbar-item">
+          <a href="index.html"><img class="navbar-icons" id="home-icon" src="images/icons/school.png"></a>
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown" id="navbar-item">
+          <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <img class="navbar-icons" id="programs-icon" src="images/icons/composition-book.png">
+          </a>
+          <a class="nav-link dropdown-toggle program-text" href="#" id="navbarDropdownMenuLink" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Programs
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <table id="programs">
+              <tr>
+                <th>Programs for Children and Young Adults&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </th>
+                <th>Programs for Adults and Seniors</th>
+              </tr>
+              <tr>
+                <td class="subjects"><a href="programs_math.html"><button class="subject-buttons">Math</button></a></td>
+                <td class="subjects"><a href="programs_esl.html"><button class="subject-buttons">ESL</button></a></td>
+              </tr>
+              <tr>
+                <td class="subjects"><a href="programs_exam.html"><button class="subject-buttons">Exam Prep</button></a>
+                </td>
+                <td class="subjects"><a href="programs_computer_basics.html"><button class="subject-buttons">Computer
+                      Basics</button></a></td>
+              </tr>
+              <tr>
+                <td class="subjects"><a href="programs_essay.html"><button class="subject-buttons">Essay
+                      Writing</button></a></td>
+                <td class="subjects"><a href="programs_computerized_accounting.html"><button
+                      class="subject-buttons">Computerized Accounting</button></a></td>
+              </tr>
+              <tr>
+                <td class="subjects"><a href="programs_literature.html"><button
+                      class="subject-buttons">Literature</button></a>
+                <td class="subjects"><a href="programs_job_readiness.html"><button class="subject-buttons">Job Readiness
+                      Workshops</button></a></td>
+              </tr>
+              <tr>
+                <td class="subjects"><a href="programs_speech.html"><button class="subject-buttons">Speech and Language
+                      Development</button></a></td>
+              </tr>
+            </table>
+            <!-- <a class="dropdown-item" href="#">Action</a>
               <a class="dropdown-item" href="#">Another action</a>
               <a class="dropdown-item" href="#">Something else here</a> -->
-            </div>
-          </li>
-          <li class="nav-item active" id="navbar-item">
-            <a href="course_packages.html"><img class="navbar-icons" id="course-packages-icon" src="images/icons/books.png"></a>
-            <a class="nav-link" href="course_packages.html"> Course Packages</a>
-          </li>
-          <li class="nav-item" id="navbar-item">
-            <a href="about_me.html"><img class="navbar-icons" id="about-me-icon" src="images/icons/person-profile.png"></a>
-            <a class="nav-link" href="about_me.html">About Me</a>
-          </li>
-          <li class="nav-item" id="navbar-item">
-            <a href="contact.html"><img class="navbar-icons" id="contact-icon" src="images/icons/mail.png"></a>
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <div id="banner-container">
-      <img id="banner-image" src="images/education/chalkboard-lightbulb.jpg" height="250px" width="100%">
-      <h2 class="centered-text">Course Packages</h2>
-      <ul class="breadcrumb-nav nav-text">
-        <li><a href="index.html">Home</a></li>
-        <li id= "current-page">Course Packages</li>
+          </div>
+        </li>
+        <li class="nav-item active" id="navbar-item">
+          <a href="course_packages.html"><img class="navbar-icons" id="course-packages-icon"
+              src="images/icons/books.png"></a>
+          <a class="nav-link" href="course_packages.html"> Course Packages</a>
+        </li>
+        <li class="nav-item" id="navbar-item">
+          <a href="about_me.html"><img class="navbar-icons" id="about-me-icon"
+              src="images/icons/person-profile.png"></a>
+          <a class="nav-link" href="about_me.html">About Me</a>
+        </li>
+        <li class="nav-item" id="navbar-item">
+          <a href="contact.html"><img class="navbar-icons" id="contact-icon" src="images/icons/mail.png"></a>
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
       </ul>
     </div>
-    <h4 class="headings" id="continuing-heading">Course Packs</h4>
-    <!-- Course Pack 1 -->
-    <div class="container" id="packages">
+  </nav>
+  <div id="banner-container">
+    <img id="banner-image" src="images/education/chalkboard-lightbulb.jpg" height="250px" width="100%">
+    <h2 class="centered-text">Course Packages</h2>
+    <ul class="breadcrumb-nav nav-text">
+      <li><a href="index.html">Home</a></li>
+      <li id="current-page">Course Packages</li>
+    </ul>
+  </div>
+  <h4 class="headings" id="continuing-heading">Course Packs</h4>
+  <!-- Managerial Concepts -->
+  <div class="container" id="packages">
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-4">
         <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
           <div class="card-body">
-            <h5 class="card-title">Course Pack 1</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="https://p3plzcpnl478396.prod.phx3.secureserver.net:2083/cpsess3615933869/frontend/paper_lantern/filemanager/showfile.html?file=Self-Awareness+-+Unit+Overview.pdf&fileop=&dir=%2Fhome%2Fjoru2yos8m4g%2Fpublic_html&dirop=&charset=&file_charset=_DETECT_&baseurl=&basedir="
-              class="btn btn-primary">View Sample</a>
+            <h5 class="card-title">Managerial Concepts</h5>
+            <p class="card-text">This course focuses on the development of leadership skills used in managing a
+              successful business.
+              Students will analyse the role of a leader in business, with a focus on decision making, management of
+              group dynamics,
+              workplace stress and conflict, motivation of employees, and planning. Effective business communication
+              skills, ethics,
+              and social responsibility are also emphasized. </p>
+            <a href="https://mega.nz/folder/8d0mjILD#SgvJRJA-rt57nzHfe_YoDQ" class="btn btn-primary">View Sample</a>
           </div>
         </div>
       </div>
 
-      <!-- Course Pack 2 -->
+      <!-- Business and Culture -->
       <div class="col-sm-12 col-md-12 col-lg-4">
         <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
           <div class="card-body">
-            <h5 class="card-title">Course Pack 2</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">View Sample</a>
+            <h5 class="card-title">Business and Culture</h5>
+            <p class="card-text">This course provides an overview of the importance of international business and trade
+              in the global economy
+              and explores the factors that influence success in international markets. Students will learn about the
+              techniques and strategies
+              associated with marketing, distribution, and managing international business effectively. </p>
+            <a href="https://mega.nz/folder/EE0SUQza#Oo0OkuOd16TrUpsz_FGPJg" class="btn btn-primary">View Sample</a>
           </div>
         </div>
       </div>
-      
-      <!-- Course Pack 3 -->
+
+      <!-- Accounting Fundamentals -->
       <div class="col-sm-12 col-md-12 col-lg-4">
         <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
           <div class="card-body">
-            <h5 class="card-title">Course Pack 3</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.
+            <h5 class="card-title">Accounting Fundamentals</h5>
+            <p class="card-text">This course introduces students to the fundamental principles and procedures of
+              accounting. Students will develop
+              financial analysis and decision-making skills that will assist them in future studies and/or career
+              opportunities in business.
+              Students will acquire an understanding of accounting for a service and a merchandising business,
+              computerized accounting,
+              financial analysis, and ethics and current issues in accounting.
             </p>
-            <a href="#" class="btn btn-primary">View Sample</a>
+            <a href="https://mega.nz/folder/lVsABAhC#rI0U_5Zrb_x6BdD1KlcFeQ" class="btn btn-primary">View Sample</a>
           </div>
         </div>
       </div>
-      <p id="course-text"><b><i>If you are interested in purchasing any of my course packages please call me at 416-275-5096.</i></b></p>
+    </div>
+    <div class="row second-row">
+      <!-- ICT and Business -->
+      <div class="col-sm-12 col-md-12 col-lg-4">
+        <div class="card" style="width: 18rem;">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <h5 class="card-title">ICT and Business</h5>
+            <p class="card-text">This course introduces students to information and communication technology (ICT) in a
+              business
+              environment and builds a foundation of digital literacy skills necessary for success in a technologically
+              driven society. Students will develop word processing, spreadsheet, database, desktop publishing,
+              presentation software, and website design skills. Throughout the course, there is an emphasis on digital
+              literacy, effective electronic research and communication skills, and current issues related to the impact
+              of ICT.</p>
+            <a href="https://mega.nz/folder/QMlQma5R#qzRtSWAGffcjuh89N7AKbg" class="btn btn-primary">View Sample</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Language -->
+      <div class="col-sm-12 col-md-12 col-lg-4">
+        <div class="card" style="width: 18rem;">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <h5 class="card-title">Language</h5>
+            <p class="card-text">This course is designed to extend the range of oral communication, reading, writing,
+              and media literacy
+              skills that students need for success in secondary school and daily life. Students will study and create a
+              variety of
+              informational, literary, and graphic texts. An important focus will be on the consolidation of strategies
+              and processes
+              that help students interpret texts and communicate clearly and effectively.</p>
+            <a href="https://mega.nz/folder/Qd1izYBD#sGLUhjtAkTLpq73LbLlbeA" class="btn btn-primary">View Sample</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Career Building -->
+      <div class="col-sm-12 col-md-12 col-lg-4">
+        <div class="card" style="width: 18rem;">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <h5 class="card-title">Career Building</h5>
+            <p class="card-text">This course gives students the opportunity to develop the skills, knowledge, and habits
+              that
+              will support them
+              in their education and career/life planning. Students will learn about global work trends, and seek
+              opportunities within the
+              school and community to expand and strengthen their transferable skills and their ability to adapt to the
+              changing world of work.
+              On the basis of exploration, reflective practice, and decision-making processes, students will make
+              connections
+              between their skills,
+              interests, and values and their postsecondary options, whether in apprenticeship training, college,
+              community
+              living, university,
+              or the workplace. They will set goals and create a plan for their first postsecondary year. As part of
+              their
+              preparation for the
+              future, they will learn about personal financial management – including the variety of saving and
+              borrowing
+              tools available to
+              them and how to use them to their advantage – and develop a budget for their first year after secondary
+              school.
+            </p>
+            <a href="https://mega.nz/folder/5UtgVICZ#Z9KO5fYI-LDkn4QJ7j6Uog" class="btn btn-primary">View Sample</a>
+          </div>
+        </div>
+      </div>
+      <p id="course-text"><b><i>If you are interested in purchasing any of my course packages please call me at
+            416-275-5096.</i></b></p>
     </div>
   </div>
 
-      
-   
 
-    <footer>  
-      <div id="footer-content">
-       <hr>
-       &copy; 
-       <script>
-         let currentYear = new Date().getFullYear();
-         document.write(currentYear);
-       </script>  
-       leapfroglearning.ca
-      </div> 
-   </footer>
-  </body>
+
+
+  <footer>
+    <div id="footer-content">
+      <hr>
+      &copy;
+      <script>
+        let currentYear = new Date().getFullYear();
+        document.write(currentYear);
+      </script>
+      leapfroglearning.ca
+    </div>
+  </footer>
+</body>
+
 </html>

@@ -57,11 +57,14 @@
     color: rgb(182, 177, 177);
   }
   
-  .headings {
-    padding-top: 30px;
-    text-align: center;
-    color: #E18D99;
-  }
+.headings {
+  padding-top: 30px;
+  text-align: center;
+  color: #E18D99;
+}
+.card-title {
+  font-weight: bold;
+}
   
 .card-body {
   text-align: center;
@@ -79,6 +82,12 @@
   font-size: 14px;
   margin-top:20px;
   /* text-align: left !important; */
+}
+.second-row {
+  margin-top: 25px;
+}
+.headings {
+  display:none;
 }
   
 @media screen and (max-width: 991px) and (min-width: 200px) {
@@ -110,6 +119,20 @@
     margin-bottom: 10px;
     
   }
+  .card-title {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .card-text {
+    font-size: 12px;
+  }
+  .btn {
+    width: fit-content;
+    
+  }
+  .card a {
+    font-size: 12px;
+  }
   #course-text {
     width:fit-content;
     margin:auto;
@@ -120,5 +143,9 @@
   #continuing-heading {
     font-size: 22px;
   }
+  .second-row {
+    margin-top: 0px;
+  }
+    
 
 }

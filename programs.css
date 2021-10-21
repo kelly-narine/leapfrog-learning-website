@@ -35,7 +35,25 @@
   ul.breadcrumb-nav li+li:before {
     padding-left: 10px !important;
   }
-
+  .card {
+    width: fit-content;
+    height: fit-content;
+  }
+  .card-title {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .card-text {
+    font-size: 12px;
+  }
+  .btn {
+    width: fit-content;
+    
+  }
+  .card a {
+    font-size: 12px;
+  }
+  
 }
 
 .nav-text {
@@ -118,7 +136,9 @@ ul.breadcrumb-nav li a:hover {
   padding-right: 60px;
   text-align: center;
 } */
-
+.card-title {
+  font-weight: bold;
+}
 .card-text li {
   text-align: left;
   list-style: none;
