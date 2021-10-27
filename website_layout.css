@@ -3,6 +3,7 @@
   background-color: #113b51;
   color:white;
   font-family: 'Open Sans', sans-serif;
+  width: 100%;
 }
 
 
@@ -142,10 +143,30 @@ th {
 
 #footer-content {
   margin-top: 200px;
-  padding-left: 20px;
-  padding-bottom: 15px;
+  /* padding-left: 20px; */
+  /* padding-top: 30px; */
+  /* padding-bottom: 15px; */
   font-size: 14px;
   font-family: 'Open sans', sans-serif;
+  /* height: 20px; */
+}
+.site-name p {
+  margin-top: 5px;
+}
+.social {
+  /* margin-top: 35px; */
+  float: right;
+}
+.social li {
+  list-style: none;
+  display: inline;
+}
+.social li+li {
+  padding-left: 10px;
+}
+.social img {
+  width: 32px;
+  /* height: 32px; */
 }
 
 @media only screen and (max-width: 520px) and (min-width: 200px)  {
@@ -162,7 +183,58 @@ th {
   #footer-content {
     font-size: 11px;
     padding-left: 0px;
-    text-align: center;
+    /* padding-bottom: 5px; */
+    /* text-align: center; */
+  }
+  .site-name p {
+    margin-bottom: -17px;
+  }
+  .social {
+    margin-top: 0px;
+  }
+  .social img {
+    width: 16px;
+    /* height: 32px; */
+  }
+  .navbar-icons {
+    height: 32px;
+    width: 32px;
+  }
+  .nav-link {
+    font-size: smaller;
+  }
+  #home-icon {
+    position: relative;
+    right: 1.55px;
+  }
+  #programs-icon {
+    position: relative;
+    left: -4px;
+  }
+  #course-packages-icon {
+    position: relative;
+    left: -1px;
+  }
+  #about-me-icon {
+    position: relative;
+    left: -1px;
+    top: 6.5px;
+  }
+  #contact-icon {
+    position: relative;
+    left: 1px;
+    top: 3px;
+  }
+  .dropdown-menu {
+    width: fit-content;
+    margin:auto;
+    display: inline-block;
+  }
+  .subject-buttons {
+    font-size: smaller;
+  }
+  th {
+    font-size: smaller;
   }
 }
 

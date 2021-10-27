@@ -197,26 +197,46 @@ span {
   }
   #map-container {
     margin-bottom: 20px;
+    margin-top: 5px;
   }
   #map  {
     /* width: 275px; */
     height: 275px;
-    position: relative;
+    /* position: relative; */
+    margin:auto;
+    width:fit-content;
+    /* margin-left: -85px; */
+  }
+  #consultation {
+    width:300px;
+
+    /* height: 300px;; */
+  }
+  #consultation-container {
     margin:auto;
     width:fit-content;
   }
-  #consultation {
-    /* width: 275px; */
-    /* position: relative; */
-    /* margin:auto;
-    width:fit-content; */
+  #grid-item-contact {
+    margin:auto;
+    width: fit-content;
   }
   #submit-button {
-    width: 100px;
+    width: fit-content;
+    font-size: 14px;
   }
   #inputName, #inputEmail4, #phoneNumber, #exampleFormControlTextarea1 {
     width: 200px;
+    font-size: 12px;
   }
+  .bi-person-fill, .bi-phone-fill, .bi-envelope-fill {
+    font-size: smaller;
+    padding-bottom: 8px;
+  }
+  #exampleFormControlTextarea1 {
+    width: 200px;
+    margin-left: 5px;
+  }
+
   #form-header {
     /* position: relative; */
      /* margin:auto; 
@@ -225,7 +245,7 @@ span {
      padding-top: 7px;
   }
   #banner-container {
-    margin-top: 18px;
+    margin-top: 20px;
   }
   #location-text h5, #phone-text h5, #email-text h5 {
     font-size: 16px;
