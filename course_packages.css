@@ -70,7 +70,7 @@
   text-align: center;
 }
 
-.container {
+#packages {
   margin: auto !important;
   width: fit-content !important;
   padding-top: 20px;

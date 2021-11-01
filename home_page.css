@@ -154,11 +154,11 @@ body {
   text-align: center;
 }
 
-ul {
+/* #navbarNavDropdown ul li {
   padding-top: 20px;
   display: inline-block;
   text-align: left;
-}
+} */
 
 #testimonials {
   padding-top: 0px;

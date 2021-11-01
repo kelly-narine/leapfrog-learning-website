@@ -24,7 +24,7 @@
   $headers = "From: $email_from \r\n";
 
   mail($to, $email_subject, $email_body, $headers);
-  header('Location: http://www.kiwebcreations.com');
+  header('Location: http://www.leapfroglearning.ca');
   exit();
 
 /*NOTE: Redirect to a thank you page after submitting request*/
