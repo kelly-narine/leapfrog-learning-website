@@ -17,7 +17,7 @@
 
   $result = explode("T", $date);
   // $to = "knarine12@hotmail.ca, $visitor_email";
-  $to = "knarine12@hotmail.ca";
+  $to = "john@leapfroglearning.ca";
   // $email_from = $visitor_email;
   $email_from = "book-session@leapfroglearning.ca";
   $email_subject = "Session Inquiry from leapfroglearning.ca";
