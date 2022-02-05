@@ -29,23 +29,26 @@
 }
 
 #navbar-item {
-  padding-left: 95px;
+  padding-left: 75px;
 }
 
 .navbar-icons {
   height: 64px;
   width: 64px;
 }
+.nav-link {
+  font-size: 18px;
+}
 
 #home-icon {
   position: relative;
-  right: 1.55px;
+  right: .55px;
   top: 12.5px;
 }
 
 #programs-icon {
   position: relative;
-  left: 9px;
+  left: 7.5px;
   top: 0.5px;
 }
 
@@ -56,44 +59,25 @@
 
 #course-packages-icon {
   position: relative;
-  left: 40px;
+  left: 38px;
   top: 9px;
 }
 
-
-/* NOTE: below pertains to programs menu popping up on hover */
-
-/* .programs-hover:hover + #programs{
-  visibility: visible;
+#video-lessons-icon {
+  position: relative;
+  left: 36px;
+  top: 6px;
 }
-
-#programs {
-  visibility: hidden;
-} */
-
-/* .dropdown-menu {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-menu #programs-table #programs a:hover  {
-  background-color: #ddd;
-
-} */
 
 #about-me-icon {
   position: relative;
-  left: 11.5px;
+  left: 14px;
   top: 5.5px;
 }
 
 #contact-icon {
   position: relative;
-  left: 5px;
+  left: 6px;
 }
 
 .dropdown-menu {
@@ -210,6 +194,10 @@ th {
   #course-packages-icon {
     position: relative;
     left: -1px;
+  }
+  #video-lessons-icon {
+    position: relative;
+    left: 0.5px;
   }
   #about-me-icon {
     position: relative;
