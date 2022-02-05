@@ -129,7 +129,11 @@ body {
   font-family: 'Dosis', sans-serif;
   font-weight: bold;
   padding-bottom: 15px;
-  padding-top: 15px;
+  padding-top: 75px;
+}
+
+#vid {
+  padding: 10px 0 5px 0;
 }
 
 #features-image {
@@ -211,6 +215,14 @@ body {
     width: 200px;
     height: 100px;
   }
+  #need-help-text {
+    padding-top: 15px;
+  }
+  #vid {
+    padding-bottom: 10px;
+  }
+  
+
 }
 
 @media only screen and (max-width: 868px) and (min-width: 768px)  {
